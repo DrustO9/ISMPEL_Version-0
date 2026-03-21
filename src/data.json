@@ -1,0 +1,152 @@
+{
+  "name": "Physics of Soft matter, Interfaces & Complex Systems",
+  "pi": "Dr. Joydip Chaudhuri",
+  "tagline": "The universe blinked. We took notes.",
+  "welcome": "Welcome to the Lab of Soft Matter, Interfaces, and Complex Systems. We explore the fascinating physics at the intersection of biology, fluid dynamics, and micro-scale engineering.",
+  "news": [
+    {
+      "date": "2025-03-15",
+      "title": "New publication in Physical Review Letters",
+      "description": "Our work on droplet dynamics in microfluidic channels has been published."
+    },
+    {
+      "date": "2025-02-10",
+      "title": "Welcome to our new Postdoc!",
+      "description": "Dr. Sarah Miller joins the lab to work on cellular biophysics."
+    },
+    {
+      "date": "2025-01-05",
+      "title": "Grant Awarded",
+      "description": "The lab has received a new grant from ANRF for microfluidic sensors."
+    }
+  ],
+  "researchAreas": [
+    {
+      "id": "cellular-biophysics",
+      "title": "Cellular & Subcellular Biophysics",
+      "description": "Investigating the mechanical properties and dynamics of cells and their internal components.",
+      "image": "https://picsum.photos/seed/cell/800/600"
+    },
+    {
+      "id": "droplet-microfluidics",
+      "title": "Droplet Microfluidics",
+      "description": "Studying the formation, manipulation, and applications of droplets in micro-scale environments.",
+      "image": "https://picsum.photos/seed/droplet/800/600"
+    },
+    {
+      "id": "microfluidic-sensors",
+      "title": "Microfluidic Sensors",
+      "description": "Developing novel sensors for high-sensitivity detection in biological and chemical systems.",
+      "image": "https://picsum.photos/seed/sensor/800/600"
+    }
+  ],
+  "funding": [
+    {
+      "title": "SRIC Project",
+      "agency": "SRIC",
+      "period": "2023-2026",
+      "role": "Principal Investigator"
+    },
+    {
+      "title": "ANRF Grant",
+      "agency": "ANRF",
+      "period": "2024-2027",
+      "role": "Principal Investigator"
+    }
+  ],
+  "publications": [
+    {
+      "year": 2025,
+      "title": "Dynamics of Droplet Coalescence in Microfluidic Channels",
+      "authors": "Chaudhuri, J., et al.",
+      "journal": "Physical Review Letters",
+      "doi": "10.1103/PhysRevLett.134.123456",
+      "type": "Journal"
+    },
+    {
+      "year": 2024,
+      "title": "Mechanical Properties of Cellular Membranes",
+      "authors": "Miller, S., Chaudhuri, J.",
+      "journal": "Biophysical Journal",
+      "doi": "10.1016/j.bpj.2024.01.001",
+      "type": "Journal"
+    },
+    {
+      "year": 2023,
+      "title": "Microfluidic Sensors for Biological Detection",
+      "authors": "Chaudhuri, J.",
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-023-12345-x",
+      "type": "Journal"
+    }
+  ],
+  "members": {
+    "pi": {
+      "name": "Dr. Joydip Chaudhuri",
+      "role": "Principal Investigator",
+      "bio": "Assistant Professor at IIT Kharagpur. Research interests include soft matter, biophysics, and microfluidics.",
+      "image": "https://picsum.photos/seed/pi/400/400",
+      "links": {
+        "scholar": "https://scholar.google.com",
+        "gate": "https://researchgate.net",
+        "orcid": "https://orcid.org"
+      }
+    },
+    "current": [
+      {
+        "name": "Dr. Sarah Miller",
+        "role": "Postdoc",
+        "area": "Cellular Biophysics",
+        "loves": "Hiking and coffee",
+        "image": "https://picsum.photos/seed/sarah/400/400",
+        "email": "sarah@iitkgp.ac.in"
+      },
+      {
+        "name": "John Doe",
+        "role": "M.Tech",
+        "area": "Droplet Microfluidics",
+        "loves": "Playing guitar",
+        "image": "https://picsum.photos/seed/john/400/400",
+        "email": "john@iitkgp.ac.in"
+      }
+    ],
+    "alumni": [
+      { "name": "Jane Smith", "role": "PhD (2023)", "current": "Postdoc at MIT" }
+    ],
+    "collaborators": [
+      { "name": "Prof. Alan Turing", "institution": "University of Cambridge" }
+    ]
+  },
+  "projects": [
+    {
+      "id": "cell-mechanics",
+      "title": "Cell Mechanics and Dynamics",
+      "area": "Cellular Biophysics",
+      "status": "Ongoing",
+      "description": "Investigating how cells respond to mechanical stress and the role of the cytoskeleton in maintaining structural integrity.",
+      "team": ["Dr. Sarah Miller", "Dr. Joydip Chaudhuri"],
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/seed/cell-project/800/600" }
+      ]
+    },
+    {
+      "id": "droplet-sorting",
+      "title": "High-Throughput Droplet Sorting",
+      "area": "Droplet Microfluidics",
+      "status": "Completed",
+      "description": "Developed a novel microfluidic device for sorting droplets based on their fluorescence intensity at high speeds.",
+      "team": ["John Doe", "Dr. Joydip Chaudhuri"],
+      "media": [
+        { "type": "image", "url": "https://picsum.photos/seed/droplet-project/800/600" }
+      ]
+    }
+  ],
+  "contact": {
+    "office": "Department of Physics, IIT Kharagpur",
+    "lab": "Room 302, Physics Building",
+    "phone": "+91-3222-123456",
+    "email": "joydip@physics.iitkgp.ac.in",
+    "group": "physicslab-kgp@googlegroups.com",
+    "address": "IIT Kharagpur, West Bengal 721302, India"
+  }
+}

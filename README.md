@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# PSMICS Lab Website (v0)
 
-# Run and deploy your AI Studio app
+Public-facing website for the **Physics of Soft matter, Interfaces & Complex Systems (PSMICS)** lab
+at IIT Kharagpur — Dr. Joydip Chaudhuri's group.
 
-This contains everything you need to run your app locally.
+Research areas: cellular biophysics, droplet microfluidics, microfluidic sensors.
 
-View your app in AI Studio: https://ai.studio/apps/622999c9-6ea6-4335-810e-3b4a7e091ee0
+> This is the **v0** scaffold built on Google AI Studio. A second iteration lives in `Project_WEB`.
 
-## Run Locally
+## Stack
 
-**Prerequisites:**  Node.js
+- React + TypeScript + Vite
+- Tailwind CSS
+- React Router
+- `@google/genai` (Gemini SDK)
+- Express (small server-side endpoints)
+- Framer Motion, `lucide-react`, `react-markdown`
 
+## Run locally
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm install
+cp .env.example .env.local       # add your GEMINI_API_KEY
+npm run dev
+```
+
+## Project layout
+
+```
+.
+├── index.html
+├── src/                  React app
+├── sml-assets/           Soft-matter lab images, figures, PDFs
+├── metadata.json         AI Studio app metadata
+├── package.json
+└── vite.config.ts
+```
